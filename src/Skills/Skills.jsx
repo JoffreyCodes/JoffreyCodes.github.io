@@ -22,19 +22,25 @@ const skillsList = [
 ]
 
 function SkillCard(skill, idx) {
-    const [color, setColor] = useState(false);
-    const [isClicked, setIsClicked] = useState(color)
+  const [isClicked, setIsClicked] = useState(false)
+  const [color, setColor] = useState(false);
+
   const path = "devicon-".concat(skill.name)
   const ext = color ?  "-plain colored" : "-plain"
   const res = path.concat(ext)
+
   const handleMouseOut = isClicked ? true : false
   const handleMouseOver = isClicked ? false : true
+  const handleOnClick=(() => {
+    setIsClicked(!isClicked)
+    setColor(!isClicked)
+  })
   return (
     <div key={idx}>
       <Card className="text-center skillCard" style={{ width: '10rem' }}
         onMouseOver={()=> setColor(handleMouseOver)}
         onMouseOut={() => setColor(handleMouseOut)}
-        onClick={() => setIsClicked(!isClicked)}
+        onClick={handleOnClick}
       >
       <i className={res} key={idx} />
           <Card.Title>
