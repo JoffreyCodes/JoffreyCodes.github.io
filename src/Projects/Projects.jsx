@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Row, Container } from 'react-bootstrap'
+import { Card, Container } from 'react-bootstrap'
 import ImgModal from './ImgModal'
 import projectsList from './ProjectList'
 import LikeHeart from './LikeHeart'
@@ -17,8 +17,8 @@ function ProjectLink(livelink, key) {
 
 function projectCard(project, idx) {
   return (
-    <div className="project-card" key={idx}>
-      <Card className="text-center projectCard" style={{ width: '25rem' }}>  
+    // <div className="project-card" key={idx}>
+    <Card className="text-center projectCard" key={idx} style={{ width: '25rem' }} >  
         <Card.Title >
           <LikeHeart />
           {'  '}
@@ -37,7 +37,6 @@ function projectCard(project, idx) {
           </Card.Text>
         </div>
       </Card>
-    </div>
   )
 }
 
@@ -47,7 +46,11 @@ function Projects() {
       <div className="projects flex-container">
         <h1>PROJECTS</h1>
         <div className="line-break" />
+        <Container>
+        <div className="cardgroup">
           {projectsList.map((project, idx) => projectCard(project, idx))}
+          </div>
+          </Container>
       </div>
     </>
   )
