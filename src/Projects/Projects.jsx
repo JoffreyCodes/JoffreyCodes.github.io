@@ -47,10 +47,10 @@ function Projects() {
         <h1>PROJECTS</h1>
         <div className="line-break" />
         <Container>
-        <div className="cardgroup">
-          {projectsList.map((project, idx) => projectCard(project, idx))}
+          <div className="cardgroup">
+            {projectsList.map((project, idx) => projectCard(project, idx))}
           </div>
-          </Container>
+        </Container>
       </div>
     </>
   )

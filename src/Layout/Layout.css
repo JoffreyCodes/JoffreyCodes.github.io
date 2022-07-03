@@ -41,9 +41,23 @@ h1{
 }
 #about{
   padding: 5% 15% ;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.aboutme-img-container{
+  width: 30vw;
+  margin: 0 15px;
+}
+#about img{
+  width:100%; 
+  max-width: 500px;
+  height: auto;
+  max-height:333px;
 }
 .aboutme-description{
-  max-width: 30vw;
+  max-width: 500px;
 }
 .aboutme-description p{
   font-family: 'Roboto Condensed', sans-serif;
@@ -65,7 +79,7 @@ h1{
   background-color: transparent;
   border-color: black;
   padding-top: 10px;
-  margin: 10px;
+  margin: 12px 0;
 }
 .card-img{
   padding: 0 10px;
