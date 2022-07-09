@@ -35,7 +35,7 @@ const projectsList = [
     src: "./media/img-safetravels.png",
     displayTitle: "SafeTravels",
     description: "Safe Travels Is a travel advisory website that provides the latest updates for visitors to a specific destination in the US. The advisory is based on Covid-19 safety rating system by city and state, and travel recommendations and tips by other users.",
-    livelink: "None",
+    livelink: "https://github.com/JoffreyCodes/safe-travels",
   }
 ]
 export default projectsList
