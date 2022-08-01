@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8b265c0.css",
+    "main.css": "/static/css/main.778e4a16.css",
     "main.js": "/static/js/main.4986bf71.js",
-    "static/media/background.jpg": "/static/media/background.524f2c3f73fa7a101e94.jpg",
+    "static/media/bayarea-background.jpg": "/static/media/bayarea-background.af9af8599a8f38e8e620.jpg",
     "index.html": "/index.html",
-    "main.b8b265c0.css.map": "/static/css/main.b8b265c0.css.map",
+    "main.778e4a16.css.map": "/static/css/main.778e4a16.css.map",
     "main.4986bf71.js.map": "/static/js/main.4986bf71.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8b265c0.css",
+    "static/css/main.778e4a16.css",
     "static/js/main.4986bf71.js"
   ]
 }
