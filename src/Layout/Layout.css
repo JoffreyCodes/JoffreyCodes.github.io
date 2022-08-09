@@ -88,7 +88,7 @@ h1{
 }
 .card-img img {
   height: 200px;
-  object-fit:cover
+  object-fit:contain;
 }
 .project-card-text{
   margin: 0 15px;

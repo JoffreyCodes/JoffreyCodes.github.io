@@ -36,6 +36,14 @@ const projectsList = [
     displayTitle: "SafeTravels",
     description: "Safe Travels Is a travel advisory website that provides the latest updates for visitors to a specific destination in the US. The advisory is based on Covid-19 safety rating system by city and state, and travel recommendations and tips by other users.",
     livelink: "https://github.com/JoffreyCodes/safe-travels",
+  },
+  {
+    src: "./media/img-unquote.png",
+    cardImg: "./media/img-safetravels.png",
+    displayTitle: "Unquote",
+    description: "An android app project built using the guidance of Codecademy. Unquote is a trivia game where users guess the famously renowned individual of contemporary and modern day quotes.",
+    livelink: "https://github.com/JoffreyCodes/android_unquote",
+
   }
 ]
 export default projectsList

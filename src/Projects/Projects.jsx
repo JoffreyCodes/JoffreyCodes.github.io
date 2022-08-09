@@ -25,7 +25,7 @@ function projectCard(project, idx) {
           {project.displayTitle.toUpperCase()}
         </Card.Title >        
         <div className="card-img">
-          <ImgModal src={project.src} displayTitle={project.displayTitle} />  
+          <ImgModal src={project.src} displayTitle={project.displayTitle} />    
         </div>
         <hr/>
         <div className="project-card-text">

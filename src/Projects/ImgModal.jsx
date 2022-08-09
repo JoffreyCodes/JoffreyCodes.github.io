@@ -10,11 +10,7 @@ function ImgModal(props) {
 
   return (
     <>
-      {/* <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
-      </Button> */}
       <Card.Img variant="top" src={props.src} onClick={handleShow}/>
-
       <Modal show={show} onHide={handleClose} animation={false} size="xl">
         <Modal.Header closeButton>
           <Modal.Title>{props.displayTitle}</Modal.Title>

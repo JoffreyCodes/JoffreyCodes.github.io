@@ -3,22 +3,23 @@ import { useState }  from 'react';
 import { Card, Container, Form } from 'react-bootstrap'
 
 const skillsList = [
-    { name: "bootstrap", displayTitle: "bootstrap"},
-    { name: "css3", displayTitle: "css3" },
-    { name: "d3js", displayTitle: "d3.js" },
-    { name: "docker", displayTitle: "docker" },
-    { name: "git", displayTitle: "git" },
-    { name: "gradle", displayTitle: "gradle" },
-    { name: "heroku", displayTitle: "heroku" },
-    { name: "html5", displayTitle: "html5" },
-    { name: "javascript", displayTitle: "javascript" },
-    { name: "java", displayTitle: "java" },
-    { name: "mongodb", displayTitle: "mongodb" },
-    { name: "mysql", displayTitle: "mysql" },
-    { name: "nodejs", displayTitle: "nodejs" },     
-    { name: "pandas", displayTitle: "pandas" },     
-    { name: "python", displayTitle: "python" },     
-    { name: "react", displayTitle: "react" }          
+  { name: "bootstrap", displayTitle: "bootstrap"},
+  { name: "css3", displayTitle: "css3" },
+  { name: "d3js", displayTitle: "d3.js" },
+  { name: "docker", displayTitle: "docker" },
+  { name: "git", displayTitle: "git" },
+  { name: "gradle", displayTitle: "gradle" },
+  { name: "heroku", displayTitle: "heroku" },
+  { name: "html5", displayTitle: "html5" },
+  { name: "javascript", displayTitle: "javascript" },
+  { name: "java", displayTitle: "java" },
+  { name: "mongodb", displayTitle: "mongodb" },
+  { name: "mysql", displayTitle: "mysql" },
+  { name: "nodejs", displayTitle: "nodejs" },     
+  { name: "pandas", displayTitle: "pandas" },     
+  { name: "python", displayTitle: "python" },     
+  { name: "react", displayTitle: "react" },
+  { name: "android", displayTitle: "android" },
 ]
 
 function SkillCard(skill, idx) {
