@@ -39,11 +39,17 @@ const projectsList = [
   },
   {
     src: "./media/img-unquote.png",
-    cardImg: "./media/img-safetravels.png",
     displayTitle: "Unquote",
     description: "An android app project built using the guidance of Codecademy. Unquote is a trivia game where users guess the famously renowned individual of contemporary and modern day quotes.",
     livelink: "https://github.com/JoffreyCodes/android_unquote",
 
+  },
+  {
+    src: "./media/img-wiki-classifier.png",
+    displayTitle: "Wiki Comments Classifier",
+    description: "Developed a machine learning model to classify discussion comments on whether they contain a personal attack or not, using information from multiple (about 10) annotators.",
+    livelink: "https://github.com/JoffreyCodes/WikiCommentsClassifier",
   }
+
 ]
 export default projectsList
