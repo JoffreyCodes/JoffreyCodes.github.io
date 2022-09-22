@@ -11,7 +11,7 @@ function Pagetop() {
         <div className='headline' >
             <h1 className="headline-text">Hello, I'm Joffrey!</h1>
                 <SocialButtons buttonLoc="header-buttons" />    
-                <Button href="./media/RESUME2022-JoffreyInocencio.pdf" variant="primary" size="lg">Resume</Button>
+                <Button href="./media/Resume2022-JoffreyInocencio.pdf" variant="primary" size="lg">Resume</Button>
         </div>        
     )
 }
