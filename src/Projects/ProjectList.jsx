@@ -3,7 +3,7 @@ const projectsList = [
     src: "https://raw.githubusercontent.com/JoffreyCodes/superUnnatural-app/main/media/v1.png",
     displayTitle: "Supernatural Music Saver",
     description: "The Supernatural app provides a feed of the user's workout history, along with access to the Spotify Playlist. However, navigating the Supernatural app for each song that you enjoy is a lenghty process, especially when having to navigate back and forth between Spotify and Supernatural to preview each song. I decided to build this app to expidite this process so that I can preview the songs to help me recall which songs I enjoyed, and save them onto a Spotify playlist for enjoying at a later time, likely during car rides. SuperUnnatural is a single-page application that allows users to save, play, and preview workout songs that were recently played on Supernatural onto their Spotify Liked playlist.",
-    livelink: "http://ec2-54-183-154-39.us-west-1.compute.amazonaws.com/"
+    livelink: "https://joffreycodes.github.io/superUnnatural-app/"
   },
   {
     src: "./media/img-issue-tracker.png",
