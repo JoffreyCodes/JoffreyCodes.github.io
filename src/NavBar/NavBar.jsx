@@ -12,6 +12,8 @@ function NavBarPanel() {
                 <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#skills">Skills</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link href="https://docs.google.com/document/d/1h6GxOUdmRP6GThTD5P86sQFLQfqZuTEDCdoJ_4TBlPw/edit?usp=sharing"
+                    target="_blank">Resume</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Container>
